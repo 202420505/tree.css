@@ -1,0 +1,47 @@
+/* 실제 h1~h6 태그와 p.h1~p.h6에 동일한 스타일 적용 */
+*{
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, p.h1 {
+    font-size: 32px;
+}
+
+h2, p.h2 {
+    font-size: 24px;
+}
+
+h3, p.h3 {
+    font-size: 18.72px;
+}
+
+h4, p.h4 {
+    font-size: 16px;
+}
+
+h5, p.h5 {
+    font-size: 13.28px;
+}
+
+h6, p.h6 {
+    font-size: 10.72px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+small {
+    font-size: 12.8px;
+}
+
+mark {
+    background-color: var(--greenyellow); /* 강조 표시된 텍스트 */
+}
+

@@ -1,0 +1,36 @@
+{
+  "name": "tree.css",
+  "version": "1.0.0",
+  "description": "A CSS MADE WITH TREE COLORS MADE IN AND FOR KOREA",
+  "keywords": [
+    "css",
+    "framework",
+    "postcss",
+    "npm"
+  ],
+  "homepage": "https://github.com/202420505/tree.css#readme",
+  "bugs": {
+    "url": "https://github.com/202420505/tree.css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/202420505/tree.css.git"
+  },
+  "license": "ISC",
+  "author": "Q",
+  "type": "commonjs",
+  "style": "dist/tree.css",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+  "build": "postcss tree.css -o dist/tree.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.4",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.0"
+  }
+}

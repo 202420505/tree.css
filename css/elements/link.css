@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--teal);     /* 클릭되어 방문한 링크 */
+}
+
+a:visited {
+    color: var(--darkolivegreen); /* 방문한 링크 */
+}
+
+a:hover {
+    color: var(--limegreen); /* 마우스 오버 시 링크 */
+}

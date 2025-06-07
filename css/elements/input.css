@@ -1,0 +1,19 @@
+input[type="text"] {
+    border-radius: 4px;
+    border: 1px solid var(--greenyellow);
+}
+
+input[type="text"]:focus {
+    border-color: var(--limegreen);
+    box-shadow: 0 0 5px var(--limegreen);
+}
+
+input[type="text"]:disabled {
+    background-color: var(--lightgreen);
+    border-color: var(--darkseagreen);
+}
+
+input[type="text"]:invalid {
+    border-color: var(--red);
+    box-shadow: 0 0 5px var(--red);
+}
